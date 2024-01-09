@@ -1,0 +1,6 @@
+o2e_test.adder:
+  path: /o2e_test/{intOne}/{intTwo}
+  defaults:
+    _controller: 'Drupal\o2e_test\Controller\O2eTestController::o2eTest'
+  requirements:
+    _permission: 'access content'

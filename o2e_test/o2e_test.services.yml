@@ -1,0 +1,6 @@
+services:
+    o2e_test.adder:
+        class: Drupal\o2e_test\Service\Adder
+    o2e_test.string_formatter:
+        class: Drupal\o2e_test\Service\StringFormatter
+        arguments: ['@o2e_test.adder']

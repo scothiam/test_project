@@ -1,0 +1,6 @@
+name: O2E Technical Test Module
+type: module
+description: 'Example of two services + controller'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Custom'
+
