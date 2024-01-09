@@ -15,7 +15,7 @@ Also, the task reminded me of lots of training I'd done, so AI was not needed to
 - add this module, o2e_test, to your custom modules directory
 - enable the module
 - clear cache
-- in a browser visit /o2e_test/4/2555 (where 4 and 2555 are the integers you'd like to have added)
+- in a browser visit {yourlocalsite}/o2e_test/4/2555 (where 4 and 2555 are the integers you'd like to have added)
 
 
 ### Steps I followed
