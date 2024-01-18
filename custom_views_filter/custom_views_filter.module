@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Custom views filter module hooks.
+ */
+
+/**
+ * Implements hook_views_data().
+ */
+function custom_views_filter_views_data() {
+  $data = [];
+
+  // https://gorannikolovski.com/blog/custom-views-filter-plugin-drupal
+  // define the filter, what field it will work with (pseudo field? Not this time)
+  $data['views']['custom_filter'] = [
+    'title' => t('custom_filter'),
+    'filter' => [
+      'title' => t('custom_filter'),
+      'field' => 'id',
+      'id' => 'custom_filter',
+    ],
+  ];
+
+  return $data;
+}

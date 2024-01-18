@@ -1,0 +1,7 @@
+name: custom_views_filter
+type: module
+description: 'Add a simple join and value condition to a view.'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Custom'
+dependencies:
+  - drupal:views

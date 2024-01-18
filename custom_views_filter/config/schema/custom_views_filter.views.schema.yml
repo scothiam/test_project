@@ -1,0 +1,8 @@
+# 'relative_date_filter' should match your plugin name.
+views.filter_value.custom_filter:
+  type: mapping
+  label: 'Custom Filter options'
+  mapping:
+    custom_options:
+      type: string
+      label: 'Custom Filter'
